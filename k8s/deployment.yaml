@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: order-service-app
-          image: dmanias/orderservice
+          image: IMAGE_URL/orderservice
           imagePullPolicy: Always
           ports:
             - containerPort: 8082

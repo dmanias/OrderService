@@ -124,7 +124,7 @@
 						<image>openjdk:11</image>
 					</from>
 					<to>
-						<image>registry.hub.docker.com/dmanias/orderservice</image>
+						<image>${REPO_URL}}/dmanias/orderservice</image>
 						<tags>${project.version}</tags>
 					</to>
 				</configuration>
