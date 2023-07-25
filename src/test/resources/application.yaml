@@ -12,18 +12,18 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://trial-5066932.okta.com/oauth2/default
+          issuer-uri: ${OKTA_OAUTH2_ISSUER}
       client:
         registration:
           internal-client:
             provider: okta
             authorization-grant-type: client_credentials
             scope: internal
-            client-id: 0oa6elwt2xzvOnA1X697
-            client-secret: omnPi1XKFu4_vpn5d7zGlUgN2sxBb-Yf_aRiNWtW
+            client-id: ${OKTA_OAUTH2_CLIENT_ID}
+            client-secret: ${OKTA_OAUTH2_CLIENT_SECRET}
         provider:
           okta:
-            issuer-uri: https://trial-5066932.okta.com/oauth2/default
+            issuer-uri: ${OKTA_OAUTH2_ISSUER}
 
 
 eureka:
